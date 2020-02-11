@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Challenge 48h</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="testbox">
+    <form action="/">
+      <div class="banner">
+        <h1>Formulaire</h1>
+      </div>
+      <hr/>
+      <fieldset>
+        <legend>Information Médecin</legend>
+        <div class="item">
+          <label for="name">Nom<span>*</span></label>
+          <input id="save" type="text" name="text" required/>
+        </div>
+        <div class="item">
+            <label for="Prenom">Prenom<span>*</span></label>
+            <input id="save" type="text" name="prenom" required/>
+          </div>
+        <div class="item">
+          <label for="address">Adresse du cabinet<span>*</span></label>
+          <input id="save" type="text" name="text" placeholder="Rue" required/>
+        </div>
+        <div class="item">
+          <div class="name-item">
+            <div>
+            <input id="save" type="text" name="code postale" placeholder="Code postal" />
+            </div>
+              <input id="save" type="text" name="city" placeholder="Ville" />
+            </div>
+            <div>
+              <input id="save" type="text" name="state" placeholder="Region" />
+            </div>
+          </div>
+          <div class="item">
+            <div class="name-item">
+              <div>
+                <input id="save" type="tel" name="phone" placeholder="Numéro de telephone" />
+              </div>
+              <div>
+                <select>
+                  <option selected value="" disabled selected>Pays</option>
+                  <option value="1">Russia</option>
+                  <option value="2">Germany</option>
+                  <option value="3">France</option>
+                  <option value="4">Armenia</option>
+                  <option value="5">USA</option>
+                  <option value="6">Spain</option>
+                  <option value="7">Italy</option>
+                </select>
+              </div>
+            </div>
+          </div>
+      </fieldset>
+      </br>
+      <fieldset>
+      <legend>Information patient</legend>
+      <div class="item">
+      <label for="name">Nom<span>*</span></label>
+      <div class="name-item">
+      <input id="save" type="text" name="Name" placeholder="Nom" required/>
+      <input id="save" type="text" name="Name" placeholder="Prenom" required/>
+      </div>
+      </div>
+      <div class="item">
+      <input id="save" type="age" name="age" placeholder="Age" required/>
+      <br>
+      </div>
+      <div class="item">
+      <label for="Prescription">Prescription<span>*</span></label>
+      <input id="save" type="text" name="text" required/>
+      </div>
+      <fieldset>
+      <div class="btn-block">
+      <button type="submit" href="/">APPLY</button>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>
